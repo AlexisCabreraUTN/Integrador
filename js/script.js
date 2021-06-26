@@ -2,7 +2,7 @@ $(".menuButton").click(function(){
     $("nav").slideToggle();
 });
 window.onresize = function() {
-    if (window.innerHeight >= 767) { 
+    if (window.innerWidth >= 767) { 
         $("nav").removeAttr("style");
      }
 }
@@ -21,7 +21,7 @@ $("#linkContacto").click(function(){
 });
 
 function insertHTML(data){
-    if (window.innerHeight <= 767) { 
+    if (window.innerWidth <= 767) { 
         $("nav").hide();
     }
     $("main").html(data);
