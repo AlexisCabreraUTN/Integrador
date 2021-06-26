@@ -17,6 +17,20 @@
     }
     header nav{
         display: none;
+        position: fixed;
+        background: #067e72;
+        width: 100%;
+        left: 0;
+        top: 54px;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li{
+        border-bottom: 1px solid white;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
     }
     .menuButton{
         display: block;
